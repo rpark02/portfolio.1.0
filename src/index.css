@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap");
+@font-face {
+  font-family: "customFont";
+  src:
+    url("src/fonts/Font1-Regular.ttf") format("truetype"),
+    url("src/fonts/Font1-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: "customFont", "fragmentMono";
+  @apply text-blue-main;
+}
