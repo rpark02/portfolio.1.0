@@ -1,6 +1,6 @@
 # Portfolio 1.0!
 
-After the fitness app exercise (read more about it \[here](https://github.com/rpark02/fitness-app)\)), I decided to make a portfolio to host my experiences and projects I have worked on. 
+After the fitness app exercise (read more about it [here](https://github.com/rpark02/fitness-app)), I decided to make a portfolio to host my experiences and projects I have worked on. 
 
 ## Skills
 Through this project I was able to exercise the following skills.
