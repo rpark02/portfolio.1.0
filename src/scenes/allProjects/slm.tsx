@@ -1,6 +1,3 @@
-// Project1.tsx
-import React from "react";
-
 const SLM = () => {
   return (
     <div>
