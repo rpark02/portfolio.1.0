@@ -1,3 +1,8 @@
+import Figma from "@/assets/mempal/mempalFigma.png";
+import Pages1 from "@/assets/mempal/mempalPages1.png";
+import Pages2 from "@/assets/mempal/mempalPages2.png";
+
+
 const Project1 = () => {
   return (
     <div>
@@ -49,7 +54,7 @@ const Project1 = () => {
       <div className="mt-10">
         <h3 className="mt-4 text-3xl">Figma Designs:</h3>
         <img
-          src="src/assets/mempal/mempalFigma.png"
+          src={Figma}
           alt="Figma Designs"
           className="max-w-[350px] w-full h-auto"
         />
@@ -58,12 +63,12 @@ const Project1 = () => {
         <h3 className="mt-4 text-3xl">Pages I Created:</h3>
         <div>
           <img
-            src="src/assets/mempal/mempalPages1.png"
+            src={Pages1}
             alt="Pages 1"
             className="max-w-[80%] w-full h-auto"
           />
           <img
-            src="src/assets/mempal/mempalPages2.png"
+            src={Pages2}
             alt="Pages 2"
             className="max-w-[70%] w-full h-auto my-5"
           />

@@ -11,6 +11,7 @@ import Project1 from "@/scenes/allProjects/project1";
 import Footer from "@/scenes/footer";
 import { useEffect, useState } from "react";
 import { SelectedPage } from "@/shared/types";
+import './fonts/Font1-Regular.ttf';
 
 const FooterWrapper = () => {
   const location = useLocation();

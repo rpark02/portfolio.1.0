@@ -1,3 +1,10 @@
+import Database from "@/assets/slm/database.png";
+import Map from "@/assets/slm/map.png";
+import BarChart from "@/assets/slm/barChart.png";
+import Analysis1 from "@/assets/slm/analysis1.png";
+import Analysis2 from "@/assets/slm/analysis2.png";
+import ScatterPlot from "@/assets/slm/scatterPlot.png";
+
 const SLM = () => {
   return (
     <div>
@@ -43,7 +50,7 @@ const SLM = () => {
       <div className="mt-10">
         <h3 className="mt-4 text-3xl">Database (Google Sheets and Excel):</h3>
         <img
-          src="src/assets/slm/database.png"
+          src={Database}
           alt="Database"
           className="w-full h-auto"
         />
@@ -52,17 +59,17 @@ const SLM = () => {
         <h3 className="mt-4 text-3xl">Data Visualization</h3>
         <div>
           <img
-            src="src/assets/slm/map.png"
+            src={Map}
             alt="Cloropleth Map"
             className="max-w-[700px] w-full h-auto"
           />
           <img
-            src="src/assets/slm/scatterPlot.png"
+            src={ScatterPlot}
             alt="Scatter Plot"
             className="max-w-[600px] w-full h-auto my-5"
           />
           <img
-            src="src/assets/slm/barChart.png"
+            src={BarChart}
             alt="Bar Chart"
             className="max-w-[400px] w-full h-auto my-5"
           />
@@ -72,12 +79,12 @@ const SLM = () => {
         <h3 className="mt-4 text-3xl">Data Analysis</h3>
         <div>
           <img
-            src="src/assets/slm/analysis1.png"
+            src={Analysis1}
             alt="Analysis 1"
             className="max-w-[600px] w-full h-auto"
           />
           <img
-            src="src/assets/slm/analysis2.png"
+            src={Analysis2}
             alt="Analysis 2"
             className="max-w-[600px] w-full h-auto my-5"
           />
