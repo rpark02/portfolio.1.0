@@ -19,6 +19,7 @@ Through this project I was able to exercise the following skills.
 - Canva
 - Procreate
 - GitHub
+- CloudFlare
 
 ## Additional Resources
 Here are some helpful resources that I used while creating this app:
