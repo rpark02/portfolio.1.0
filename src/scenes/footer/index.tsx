@@ -4,7 +4,7 @@ import GitHubIcon from "@/assets/github.png";
 
 const Footer = () => {
   return (
-    <footer className="py-5 bg-pale-blue">
+    <footer className="py-5 bg-pale-blue mt-20">
       <div className="mx-auto w-5/6">
         <h4 className="text-navy text-3xl text-center md:text-left">
           Contact Info

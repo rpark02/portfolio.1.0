@@ -7,6 +7,7 @@ module.exports = {
         "blue-main": "#242882",
         "navy": "#060942",
         "light-blue": "#B2C6E4",
+        "mid-blue": "#CFDDF5",
         "pale-blue": "#E4ECF8"
       },
       fontFamily: {

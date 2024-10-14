@@ -18,7 +18,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
   const navbarBackground = isTopOfPage ? "" : "bg-pale-blue drop-shadow";
 
   return (
-    <nav>
+    <nav className="mb-12">
       {/* Fixed Navbar */}
       <div
         className={`${navbarBackground} ${flexBetween} fixed top-0 left-0 z-30 w-full py-6`}

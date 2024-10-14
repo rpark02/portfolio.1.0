@@ -1,86 +1,118 @@
+// import Carousel from "@/shared/Carousel.tsx";
+import Birthday from "@/assets/designs/birthday.png";
+import Getty from "@/assets/designs/getty.png";
+import Pistol from "@/assets/designs/parisPistol.png";
+import Tower from "@/assets/designs/towerAd.png";
+import Copywriting from "@/assets/designs/copywriting.png";
+import MyCopywriting from "@/assets/designs/myCopywriting.png";
+import MenRun from "@/assets/designs/parisRunMen.png";
+import WomenRun from "@/assets/designs/parisRunWomen.png";
+
 const SLM = () => {
+  // const images = [
+  //   "https://example.com/image1.jpg",
+  //   "https://example.com/image2.jpg",
+  //   "https://example.com/image3.jpg",
+  //   // Add more image URLs as needed
+  // ];
+
   return (
     <div>
       <div>
-        <h2 className="text-5xl">Foster Care Data Analysis</h2>
-        <p className="text-2xl">Data Analyst</p>
-        <p className="text-2xl">Silver Lining Mentoring | 2024</p>
+        <h2 className="text-5xl">Design Exercises</h2>
       </div>
       <div>
         <p className="mt-4 text-sm font-fragmentMono">
-          Silver Lining Mentoring is an organization that empowers youth in
-          foster care. Read more about them{" "}
-          <a
-            href="https://www.silverliningmentoring.org/"
-            className="text-blue-500"
-          >
-            here
-          </a>
-          .
-        </p>
-        <p className=" mt-4 text-sm font-fragmentMono">
-          I was tasked to collect data on different mentoring programs across
-          the United States that were available for youth who are currently in,
-          or have previously been in the foster care system. I created a
-          database using Google Sheets/Excel, and analyzed this data for any
-          patterns and trends. In addition, I created visualizations of this
-          data using Google Sheets/Excel, Python, Pandas/Geopandas, and
-          Matplotlib.
+          In addition to programming, I really enjoy art and design. I enjoy
+          practicing my skills by recreating ads and creating mockups for
+          various events. Below are some examples of my work.
         </p>
       </div>
       <div className="mt-10">
         <h3 className="mt-4 text-3xl">Skills Used:</h3>
         <ul className="list-disc list-inside mt-2">
-          <li className="text-sm font-fragmentMono">GitHub</li>
-          <li className="text-sm font-fragmentMono">G Suite</li>
-          <li className="text-sm font-fragmentMono">Microsoft Office</li>
-          <li className="text-sm font-fragmentMono">Python</li>
-          <li className="text-sm font-fragmentMono">Pandas</li>
-          <li className="text-sm font-fragmentMono">Matplotlib</li>
-          <li className="text-sm font-fragmentMono">Data Analysis</li>
+          <li className="text-sm font-fragmentMono">Figma</li>
+          <li className="text-sm font-fragmentMono">Canva</li>
+          <li className="text-sm font-fragmentMono">Procreate</li>
         </ul>
       </div>
       <div className="mt-10">
-        <h3 className="mt-4 text-3xl">Database (Google Sheets and Excel):</h3>
-        <img
-          src="src/assets/slm/database.png"
-          alt="Database"
-          className="w-full h-auto"
-        />
-      </div>
-      <div className="mt-10">
-        <h3 className="mt-4 text-3xl">Data Visualization</h3>
-        <div>
-          <img
-            src="src/assets/slm/map.png"
-            alt="Cloropleth Map"
-            className="max-w-[700px] w-full h-auto"
-          />
-          <img
-            src="src/assets/slm/scatterPlot.png"
-            alt="Scatter Plot"
-            className="max-w-[600px] w-full h-auto my-5"
-          />
-          <img
-            src="src/assets/slm/barChart.png"
-            alt="Bar Chart"
-            className="max-w-[400px] w-full h-auto my-5"
-          />
+        {/* <div className="carousel-container">
+          <Carousel images={images} />
+        </div> */}
+        <div className="flex mt-10">
+          <div className="flex flex-col items-center justify-center">
+            <img
+              src={Copywriting}
+              alt="Ad for copywriting classes"
+              className="max-w-[60%] w-full h-auto"
+            />
+            <p className="text-2xl text-center mt-2">
+              Original Ad (from Instagram)
+            </p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <img
+              src={MyCopywriting}
+              alt="revised ad for copywriting classes"
+              className="max-w-[60%] w-full h-auto"
+            />
+            <p className="text-2xl text-center mt-2">My Version</p>
+          </div>
         </div>
-      </div>
-      <div className="mt-10">
-        <h3 className="mt-4 text-3xl">Data Analysis</h3>
-        <div>
-          <img
-            src="src/assets/slm/analysis1.png"
-            alt="Analysis 1"
-            className="max-w-[600px] w-full h-auto"
-          />
-          <img
-            src="src/assets/slm/analysis2.png"
-            alt="Analysis 2"
-            className="max-w-[600px] w-full h-auto my-5"
-          />
+        <div className="flex mt-10">
+          <div className="flex flex-col items-center justify-center">
+            <img
+              src={Birthday}
+              alt="Mock of a birthday invitation"
+              className="max-w-[80%] w-full h-auto"
+            />
+            <p className="text-2xl text-center mt-2">Birthday Invitation</p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <img
+              src={Getty}
+              alt="postcard for Getty Museum"
+              className="max-w-[80%] w-full h-auto"
+            />
+            <p className="text-2xl text-center mt-2">Getty Museum</p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <img
+              src={Tower}
+              alt="mock ad for Tower28 beauty brand"
+              className="max-w-[80%] w-full h-auto"
+            />
+            <p className="text-2xl text-center mt-2">Tower28 Ad</p>
+          </div>
+        </div>
+        <div className="flex mt-10">
+          <div className="flex flex-col items-center justify-center">
+            <img
+              src={Pistol}
+              alt="Image of an athlete from the 2024 Paris Olympics"
+              className="max-w-[80%] w-full h-auto"
+            />
+            <p className="text-2xl text-center mt-2">Paris 2024 - Air Pistol</p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <img
+              src={WomenRun}
+              alt="Image of women athletes running in the 2024 Paris Olympics"
+              className="max-w-[80%] w-full h-auto"
+            />
+            <p className="text-2xl text-center mt-2">
+              Paris 2024 - Women's 200m
+            </p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <img
+              src={MenRun}
+              alt="Image of men athletes running in the 2024 Paris Olympics"
+              className="max-w-[80%] w-full h-auto"
+            />
+            <p className="text-2xl text-center mt-2">Men's 100m</p>
+          </div>
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@ const Projects = () => {
 
   return (
     <section className="flex flex-col items-center justify-center min-h-screen w-full pt-24">
-      <h1 className="text-4xl font-bold mb-8">Welcome to my projects page!</h1>
+      <h1 className="text-4xl mb-8">Welcome to my projects page!</h1>
 
       <div className="flex w-full">
         {/* Sidebar with Project Buttons */}
@@ -25,9 +25,9 @@ const Projects = () => {
               onClick={() => setSelectedProject(project)} // Update the selected project on click
               className={`p-4 text-3xl ${
                 selectedProject.id === project.id
-                  ? "bg-gray-300"
-                  : "bg-gray-100"
-              } hover:bg-gray-200`}
+                  ? "bg-pale-blue"
+                  : "bg-light-blue"
+              } hover:bg-mid-blue`}
             >
               {project.title}
             </button>
@@ -35,7 +35,7 @@ const Projects = () => {
         </div>
 
         {/* Project Details Section */}
-        <div className="flex-grow p-12 bg-gray-100">
+        <div className="flex-grow p-12 bg-pale-blue">
           {selectedProject.component} {/* Render the selected project's component */}
         </div>
       </div>

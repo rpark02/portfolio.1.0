@@ -11,7 +11,7 @@ import Project1 from "@/scenes/allProjects/project1";
 import Footer from "@/scenes/footer";
 import { useEffect, useState } from "react";
 import { SelectedPage } from "@/shared/types";
-import './fonts/Font1-Regular.ttf';
+import "./fonts/Font1-Regular.ttf";
 
 const FooterWrapper = () => {
   const location = useLocation();
@@ -48,8 +48,9 @@ function App() {
         />
 
         {/* Main content */}
-        {/* Add padding top based on the height of your navbar (96px in this case) */}
-        <div className="flex-grow pt-[96px]">
+        <div className="flex-grow">
+          {" "}
+          {/* Responsive padding */}
           <Routes>
             <Route
               path="/"
@@ -59,6 +60,8 @@ function App() {
             <Route path="/projects/project1" element={<Project1 />} />
           </Routes>
         </div>
+
+        {/* Footer */}
         <FooterWrapper />
       </div>
     </Router>
